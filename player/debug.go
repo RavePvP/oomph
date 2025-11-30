@@ -9,7 +9,7 @@ const (
 	DebugModeMovementSim
 	DebugModeLatency
 	DebugModeChunks
-	DebugModeAimA
+	DebugModeAim
 	DebugModeTimer
 	DebugModeBlockPlacement
 	DebugModeUnhandledPackets
@@ -50,7 +50,7 @@ var (
 		"movement_sim":      DebugModeMovementSim,
 		"latency":           DebugModeLatency,
 		"chunks":            DebugModeChunks,
-		"aim-a":             DebugModeAimA,
+		"aim-a":             DebugModeAim,
 		"timer-a":           DebugModeTimer,
 		"block_placements":  DebugModeBlockPlacement,
 		"unhandled_packets": DebugModeUnhandledPackets,

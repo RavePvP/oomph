@@ -68,7 +68,7 @@ func (d *AimA) Detect(pk packet.Packet) {
 	diff := math32.Abs(roundedLight - roundedHeavy)
 
 	d.mPlayer.Dbg.Notify(
-		player.DebugModeAimA,
+		player.DebugModeAim,
 		true,
 		"r1=%f r2=%f diff=%f",
 		roundedHeavy,
